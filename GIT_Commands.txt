@@ -6,12 +6,17 @@ https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
 Create a new repository on the command line
 
 echo "# projetocucumber04" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
-git push -u origin main
+
+Inicializa o repositório GIT 		git init
+Envia tudo							git add . 	
+Primeiro Commit 					git commit -m "first commit"  
+
+Criar a branch mail 				git branch -M main
+Preparo da execução para o Push 	git remote add origin https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
+Envio para o GIT					git push -u origin main
+
+Enviar UM ARQUIVO 					git add src/tests/CarrinhoDeComprasTest.java
+
 …or push an existing repository from the command line
 git remote add origin https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
 git branch -M main
