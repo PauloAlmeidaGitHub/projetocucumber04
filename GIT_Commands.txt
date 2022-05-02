@@ -15,7 +15,9 @@ Criar a branch mail 				git branch -M main
 Preparo da execução para o Push 	git remote add origin https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
 Envio para o GIT					git push -u origin main
 
-Enviar UM ARQUIVO 					git add src/tests/CarrinhoDeComprasTest.java
+Enviar UM ARQUIVO 					git add V:/ECLIPSE/workspace/projeto04/GIT_Commands.txt
+COMMIT								git commit -m 'Evidências e atualização de Commentários'
+Push								git push origin main
 
 …or push an existing repository from the command line
 git remote add origin https://github.com/PauloAlmeidaGitHub/projetocucumber04.git
